@@ -78,7 +78,7 @@ check_sys(){
 
 # 开始安装caddy
 install_caddy(){
-    bash <(curl -L -s https://github.com/haomen165/temp/blob/master/caddy_install.sh)
+    bash <(curl -L -s https://raw.githubusercontent.com/haomen165/temp/master/caddy_install.sh)
 }
 
 # 该配置会自动部署ssl证书，前提是域名已解析成功
